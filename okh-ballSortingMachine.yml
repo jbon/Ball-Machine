@@ -1,0 +1,60 @@
+%Open know-how manifest 0.1
+---
+
+# This is a manifest after Open Know How Standard v1 formated in YAML markup language
+# more info:  https://app.standardsrepo.com/MakerNetAlliance/OpenKnowHow/src/branch/master/1
+
+date-created: 2019-10-07                      # YYYY-MM-DD
+
+manifest-author:
+  name: Jérémy Bonvoisin                            # required | text
+  affiliation: University of Bath, Department of Mechanical Engineering                    # text
+  email: j.bonvoisin@bath.ac.uk                           # email address
+
+manifest-language: English-UK
+
+documentation-language: English-UK
+
+# Properties
+
+title: Ball sorting machine                             # required | text | A title to identify the thing
+
+description: |                             # required | paragraph
+  The “ball-sorting machine” is a work-in-progress concept of a purely mechanical machine capable of sorting balls by weight order using a selection of sorting algorithms.  
+
+intended-use: |                            # recommended | Paragraph
+  It aims to deliver museum visitors a hands-on and visual experience of different sorting algorithms. Balls with different weights are dropped in a series of comparators sorting them simply using gravitational force. The visitor can reiterate the sorting with different machine configurations in order to compare the working principles of the sorting algorithms and therewith understand their differences.
+
+keywords:                                  # At least one keyword is recommended | text array 
+  - museum exhibit
+  - sorting algorithm
+  - machine design
+
+project-link: https://imaginary.org/hands-on/ball-sorting-machine                      # At least project-link or documentation-home is required, otherwise recommended | absolute path URL
+
+contact:
+  name: Jérémy Bonvoisin                            # text
+  affiliation: University of Bath                     # text
+  email: j.bonvoisin[at]bath.ac.uk                           # email address
+  social:
+    - platform: twitter                    # text
+      user-handle: @Du33Jerry                 # text
+
+contributors:                              # recommended
+  - name: James taylor                  # text
+    affiliation: University of Bath                   # text
+  - name: Jérémy Bonvoisin                            # text
+    affiliation: University of Bath                     # text
+    email: j.bonvoisin[at]bath.ac.uk                           # email address
+
+image: https://imaginary.org/sites/default/files/styles/slideshow_630/public/top_assy.png?itok=oWRGUIVC                             # recommended | absolute or relative path
+
+development-stage: concept/prototype                 # text
+
+made: false                         # boolean - true or false
+
+made-independently: false           # boolean - true or false
+
+# Documentation
+
+documentation-home: https://github.com/jbon/Ball-Machine              # At least one of the project-link or documentation-home fields is required | absolute path
