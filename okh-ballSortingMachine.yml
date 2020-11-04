@@ -38,7 +38,7 @@ contact:
   email: j.bonvoisin[at]bath.ac.uk                           # email address
   social:
     - platform: twitter                    # text
-      user-handle: @Du33Jerry                 # text
+      user-handle: "@Du33Jerry"                 # text
 
 contributors:                              # recommended
   - name: James taylor                  # text
